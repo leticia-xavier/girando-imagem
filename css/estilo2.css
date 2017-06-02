@@ -1,0 +1,38 @@
+body{
+	background: url(../img/09.jpg) center center fixed;
+	background-size: cover;
+}
+img{
+	margin-left: 16px;
+	width: 400px;
+	height: 400px;
+	box-shadow: 20px 20px 40px 3px #fff;
+	border-top-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+/*QUANDO PASSAR O MOUSE*/
+img:hover{
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 50%;
+	transition-duration: 2s;
+	-webkit-transform:rotate(2000deg);
+	-webkit-filter: blur(2px) contrast(1.7) grayscale(0.1);
+}
+div{
+	margin-left:40%;
+	background: rgba(255,255,255,0.6);
+	width: 440px;
+}
+h3{
+	color:#111e33;
+	text-shadow: 7px 13px 3px #999;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+}
+h1{
+	color:#fff;
+	text-shadow: 7px 13px 3px #999;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 40px;
+}
